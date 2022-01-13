@@ -1,508 +1,566 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Personal Portfolio Website</title>
-        <meta name="viewport" content ="width=device-width, initial-scale=1.0">
-        <!-- css link-->
-        <link href="portfolio.css" rel="stylesheet" type="text/css">
-        <link href="color-1.css" rel="stylesheet" type="text/css">
-        <!--font -->
-        <link href="/all.css"rel="stylesheet" type="text/css">
-    </head>
 
-    <body>
-        <!-- header -->
+<head>
+    <meta charset="utf-8">
+    <title>Personal Portfolio Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css link-->
+    <link href="portfolio.css" rel="stylesheet" type="text/css">
+    <link href="color-1.css" rel="stylesheet" type="text/css">
+    <!--font -->
+    <link href="/all.css" rel="stylesheet" type="text/css">
+</head>
 
-        <header class="header">
-            <div class="container">
-                <div class="row justify-content-between">
-                    <div class="logo">
-                        <a href="portfolio.html">a</a>
-                    </div>
-                    <div class="ham-btn outer-shadow hover-in-shadow">
-                        <span>
+<body>
+    <!-- header -->
 
-                        </span>
-                    </div>
+    <header class="header">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="logo">
+                    <a href="portfolio.html">a</a>
                 </div>
+                <div class="ham-btn outer-shadow hover-in-shadow">
+                    <span>
 
-            </div>
-        </header>
-        <!-- header end-->  
-
-        <!-- Nav Menu -->
-        <nav class ="nav-menu">
-            <div class="close-nav-menu outer-shadow hover-in-shadow">&times;</div>
-            <div class="nav-menu-inner">
-                <ul>
-                    <li><a href="#" class ="inner-shadow active">home</a></li>
-                    <li><a href="#" class ="outer-shadow hover-in-shadow">about</a></li>
-                    <li><a href="#" class ="outer-shadow hover-in-shadow">services</a></li>
-                    <li><a href="#" class ="outer-shadow hover-in-shadow">portfolio</a></li>
-                    <li><a href="#" class ="outer-shadow hover-in-shadow">testimonial</a></li>
-                    <li><a href="#" class ="outer-shadow hover-in-shadow">contact</a></li>
-                </ul>
-            </div>
-            <!-- Copyright Text -->
-            <p class="copyright-text">&copy; 2022 Long Nguyen</p>
-        </nav>
-        <!-- Nav Menu  end-->
-
-
-        <!-- home section-->
-        <section class ="home-section section">
-            <!-- effect wrap -->
-            <div class ="effect-wrap">
-                <div class="effect effect-1">
-                </div>
-                <div class="effect effect-2">
-                    <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-                    <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-                    <div></div><div></div><div></div><div></div><div></div>
-                </div>
-
-                <div class="effect effect-3"></div>
-                <div class="effect effect-4"></div>
-                <div class="effect effect-5">
-                    <div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-                    <div></div><div></div><div></div>
+                    </span>
                 </div>
             </div>
-            <!-- effect wrap end-->
-            <div class="container">
-                <div class="row full-screen align-items-center">
-                    <div class="home-text">
-                        <p>Hello</p>
-                        <h2>I'm Long Nguyen</h2>
-                        <h1>Software Engineering</h1>
-                        <a href="#" class="btn-1 outer-shadow hover-in-shadow">More About Me</a>
-                    </div>
 
-                    <div class="home-img">
-                        <div class ="img-box inner-shadow">
-                            <img class="outer-shadow" src ="/profile-pic.jpg" alt="profic-pic">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- home section end-->
+        </div>
+    </header>
+    <!-- header end-->
 
-        <!-- About section -->
-        <section class="about-section section">
-            <div class="container">
-                <div class="row">
-                    <div class="section-title">
-                        <h2 data-heading="main info">About me</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="about-img">
-                        <div class="img-box inner-shadow">
-                            <img src="profile-pic.jpg" class ="outer-shadow" alt="profile-pic">
-                        </div>
-                        <!-- Social links -->
-                        <div class="social-links">
-                            <a href="#" class="outer-shadow hover-in-shadow"><i class="fab fa-linkedin"></i></a>
-                            <a href="#" class="outer-shadow hover-in-shadow"><i class="fab fa-github"></i></a>
-                            <a href="#" class="outer-shadow hover-in-shadow"><i class="fab fa-facebook"></i></a>
-                        </div>
-                    </div>
-                    <div class="about-info">
-                        <p><span>Hi! I'm Long Nguyen. I'm a Software Engnineering</span>This is all about my life</p>
-                        <a href="Resume-Long.pdf" class ="btn-1 outer-shadow hover-in-shadow">My Resume</a>
-                        <a href="#" class="btn-1 outer-shadow hover-in-shadow">Hire me</a>
-                    </div>
-                </div>
-                <!-- About tabs -->
-                <div class="row">
-                    <div class="about-tabs">
-                        <span class="tab-item outer-shadow active" data-target=".skills"> skills</span>
-                        <span class="tab-item" data-target=".experience"> experience</span>
-                        <span class="tab-item" data-target=".education"> education</span>
-                    </div>
-                </div>
-                <!-- About tabs end-->
-                <!-- Skill tabs -->
-                <div class="row">
-                    <div class="skills tab-content active">
-                        <div class="row">
-                            <!-- HTML Skill -->
-                            <div class="skill-item">
-                                <p>HTML5</p>
-                                <div class="progress inner-shadow">
-                                    <div class="progress-bar" style="width: calc(70% - 14px)">
-                                        <span>70%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- HTML Skill end -->
-                            <!-- CSS Skill -->
-                            <div class="skill-item">
-                                <p>CSS</p>
-                                <div class="progress inner-shadow">
-                                    <div class="progress-bar" style="width: calc(60% - 14px)">
-                                        <span>60%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- CSS Skill end-->
-                            <!-- JavaScript Skill -->
-                            <div class="skill-item">
-                                <p>JavaScript</p>
-                                <div class="progress inner-shadow">
-                                    <div class="progress-bar" style="width: calc(70% - 14px)">
-                                        <span>70%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- JavaScript skill end-->
-                            <!-- Java Skill -->
-                            <div class="skill-item">
-                                <p>Java</p>
-                                <div class="progress inner-shadow">
-                                    <div class="progress-bar" style="width: calc(90% - 14px)">
-                                        <span>90%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Java skill end-->
-                            <!-- Python Skill -->
-                            <div class="skill-item">
-                                <p>Python</p>
-                                <div class="progress inner-shadow">
-                                    <div class="progress-bar" style="width: calc(30% - 14px)">
-                                        <span>30%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Python skill end-->
-                        </div>
-                    </div>
-                </div>
-                <!-- Skill tabs end-->
-                <!-- Experience start -->
-                <div class="row">
-                    <div class="experience tab-content">
-                        <div class="row">
-                            <div class="timeline">
-                                <div class="row">
-                                    <!-- timeline item start -->
-                                        <div class="timeline-item">
-                                            <div class="timeline-item-inner outer-shadow">
-                                                <i class="fas fa-briefcase icon"></i>
-                                                <span>June 2021 - Sep 2021</span>
-                                                <h3> Software Developer </h3>
-                                                <h4>Viet Challenge (Volunteer)</h4>
-                                                <p>Maintain Website Vietchallenge.org by using Wix API. Get to know syntax of JavaScript, design and implement features as a team of 3. </p>
-                                            </div>
-                                        </div>
-                                    <!-- timeline item end -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Experience end -->
-                <!-- Education start -->
-                <div class="row">
-                    <div class="education tab-content">
-                        <div class="row">
-                            <div class="timeline">
-                                <div class="row">
-                                    <!-- timeline item start -->
-                                        <div class="timeline-item">
-                                            <div class="timeline-item-inner outer-shadow">
-                                                <i class="fas fa-graduation-cap icon"></i>
-                                                <span>Sep, 2019 - May 2022</span>
-                                                <h3> Bachelor Degree in Science </h3>
-                                                <h4>Salem State University</h4>
-                                                <p>Major: Computer Science, Concentration in Software Engineering</p>
-                                            </div>
-                                        </div>
-                                    <!-- timeline item end -->
-                                    <!-- timeline item start -->
-                                    <div class="timeline-item">
-                                        <div class="timeline-item-inner outer-shadow">
-                                            <i class="fas fa-graduation-cap icon"></i>
-                                            <span>Sep, 2015 - Sep, 2019</span>
-                                            <h3> High School Degree</h3>
-                                            <h4>Green River Community College</h4>
-                                            <p>I joined and finished "High School Completion" program at GRCC; I have taken many Business classes here at GRCC.</p>
-                                        </div>
-                                    </div>
-                                <!-- timeline item end -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Education end -->
-            </div>
-        </section>
-        <!-- About section end -->
+    <!-- Nav Menu -->
+    <nav class="nav-menu">
+        <div class="close-nav-menu outer-shadow hover-in-shadow">&times;</div>
+        <div class="nav-menu-inner">
+            <ul>
+                <li><a href="#" class="inner-shadow active">home</a></li>
+                <li><a href="#" class="outer-shadow hover-in-shadow">about</a></li>
+                <li><a href="#" class="outer-shadow hover-in-shadow">services</a></li>
+                <li><a href="#" class="outer-shadow hover-in-shadow">portfolio</a></li>
+                <li><a href="#" class="outer-shadow hover-in-shadow">testimonial</a></li>
+                <li><a href="#" class="outer-shadow hover-in-shadow">contact</a></li>
+            </ul>
+        </div>
+        <!-- Copyright Text -->
+        <p class="copyright-text">&copy; 2022 Long Nguyen</p>
+    </nav>
+    <!-- Nav Menu  end-->
 
-        <!-- Service section -->
-        <section class="service-section">
-            <div class="container">
-                <div class="row">
-                    <div class="section-title">
-                        <h2 data-heading="services"> What I do</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <!-- service item start -->
-                    <div class="service-item">
-                        <div class="service-item-inner outer-shadow">
-                            <div class="icon inner-shadow">
-                                <i class="fas fa-mobile-alt"></i>
-                            </div>
-                            <h3>Responsive Design</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                do eiusmod.
-                            </p>
-                        </div>
-                    </div>
-                    <!-- service item end -->
-                    <!-- service item start -->
-                    <div class="service-item">
-                        <div class="service-item-inner outer-shadow">
-                            <div class="icon inner-shadow">
-                                <i class="fas fa-code"></i>
-                            </div>
-                            <h3>Clean Code</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                do eiusmod.
-                            </p>
-                        </div>
-                    </div>
-                    <!-- service item end -->
-                    <!-- service item start -->
-                    <div class="service-item">
-                        <div class="service-item-inner outer-shadow">
-                            <div class="icon inner-shadow">
-                                <i class="fas fa-laptop-code"></i>
-                            </div>
-                            <h3>Web Design</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                do eiusmod.
-                            </p>
-                        </div>
-                    </div>
-                    <!-- service item end -->
-                    <!-- service item start -->
-                    <div class="service-item">
-                        <div class="service-item-inner outer-shadow">
-                            <div class="icon inner-shadow">
-                                <i class="fas fa-palette"></i>
-                            </div>
-                            <h3>Graphic Design</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                do eiusmod.
-                            </p>
-                        </div>
-                    </div>
-                    <!-- service item end -->
-                    <!-- service item start -->
-                    <div class="service-item">
-                        <div class="service-item-inner outer-shadow">
-                            <div class="icon inner-shadow">
-                                <i class="fas fa-search"></i>
-                            </div>
-                            <h3>SEO marketing</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                do eiusmod.
-                            </p>
-                        </div>
-                    </div>
-                    <!-- service item end -->
-                    <!-- service item start -->
-                    <div class="service-item">
-                        <div class="service-item-inner outer-shadow">
-                            <div class="icon inner-shadow">
-                                <i class="fas fa-bullhorn"></i>
-                            </div>
-                            <h3>great support</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                do eiusmod.
-                            </p>
-                        </div>
-                    </div>
-                    <!-- service item end -->
-                </div>
-            </div>
-        </section>
-        <!-- Service section end-->
 
-        <!-- portfolio section -->
-        <section class="portfolio-section section">
-            <div class="container">
-                <div class="row">
-                    <div class="section-title">
-                        <h2 data-heading="portfolio">Lastest Works</h2>
-                    </div>
-                </div>
-                <!-- portfolio filter -->
-                <div class="row">
-                    <div class="portfolio-filter">
-                        <span class="filter-item outer-shadow active" data-target="all">all</span>
-                        <span class="filter-item" data-target="web-application">web application</span>
-                        <span class="filter-item" data-target="photoshop">photoshop</span>
-                        <span class="filter-item" data-target="mobile-app">mobile app</span>
-                        <!-- <span class="filter-item" data-target="e-commerce">e commerce</span> -->
-                    </div>
-                </div>
-                <!-- portfolio filter  end -->
-                <!-- portfolio items -->
-                <div class="row portfolio-items">
-                    <!-- portfolio item  -->
-                    <div class="portfolio-item" data-category="web-application">
-                        <div class="portfolio-item-inner outer-shadow">
-                            <div class="portfolio-item-img">
-                                <img src="/screenshots/Project1/sc1.png" alt="portfolio" data-screenshots="#">
-                                <!-- view porject btn -->
-                                <span class="view-project"> view project </span>
-                            </div>
-                            <p class="portfolio-item-title">personal portfolio</p>
-                            <!-- portfolio item details -->
-                            <div class="portfolio-item-details">
-                                <div class="row">
-                                    <div class="description">
-                                        <h3>Project Brief:</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                            do eiusmod</p>
-                                    </div>
-                                    <div class="info">
-                                        <h3>Project info</h3>
-                                        <ul>
-                                            <li>Date - <span> 2022 </span></li>
-                                            <li> Tolls - <span> HTML5, CSS, JavaScript </span></li>
-                                            <li>Website - <span> <a href="#">www.domain.com</a> </span></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- portfolio item details end -->
-                        </div>
-                    </div>
-                    <!-- portfolio item end -->
-                    <!-- portfolio item  -->
-                    <div class="portfolio-item"data-category="photoshop">
-                        <div class="portfolio-item-inner outer-shadow">
-                            <div class="portfolio-item-img">
-                                <img src="/screenshots/Project2/Landing.PNG" alt="Bob's nursery" data-screenshots="img/portfolio1/screenshots/Project2/Account.png,
-                                img/portfolio1/screenshots/Project2/Log_in.PNG,
-                                img/portfolio1/screenshots/Project2/Plant_inventory.PNG,
-                                img/portfolio1/screenshots/Project2/Sale_Summary.PNG,
-                                img/portfolio1/screenshots/Project2/Vendor_page.PNG,
-                                img/portfolio1/screenshots/Project2/Vendor_page_add.PNG,">
-                                <!-- view porject btn -->
-                                <span class="view-project"> view project </span>
-                            </div>
-                            <p class="portfolio-item-title">Bob's Nursery</p>
-                            <!-- portfolio item details -->
-                            <div class="portfolio-item-details">
-                                <div class="row">
-                                    <div class="description">
-                                        <h3>Project Brief:</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                            do eiusmod</p>
-                                    </div>
-                                    <div class="info">
-                                        <h3>Project info</h3>
-                                        <ul>
-                                            <li>Date - <span> 2022 </span></li>
-                                            <li> Tolls - <span> HTML5, CSS, JavaScript </span></li>
-                                            <li>Website - <span> <a href="#">www.domain.com</a> </span></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- portfolio item details end -->
-                        </div>
-                    </div>
-                    <!-- portfolio item end -->
-                    <!-- portfolio item  -->
-                    <div class="portfolio-item" data-category="mobile-app">
-                        <div class="portfolio-item-inner outer-shadow">
-                            <div class="portfolio-item-img">
-                                <img src="/screenshots/Project3/snakegame.png" alt="portfolio" data-screenshots="#">
-                                <!-- view porject btn -->
-                                <span class="view-project"> view project </span>
-                            </div>
-                            <p class="portfolio-item-title">Snake Game</p>
-                            <!-- portfolio item details -->
-                            <div class="portfolio-item-details">
-                                <div class="row">
-                                    <div class="description">
-                                        <h3>Project Brief:</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                            do eiusmod</p>
-                                    </div>
-                                    <div class="info">
-                                        <h3>Project info</h3>
-                                        <ul>
-                                            <li>Date - <span> 2022 </span></li>
-                                            <li> Tolls - <span> HTML5, CSS, JavaScript </span></li>
-                                            <li>Website - <span> <a href="#">www.domain.com</a> </span></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- portfolio item details end -->
-                        </div>
-                    </div>
-                    <!-- portfolio item end -->
-                </div>
-                <!-- portfolio items end -->
+    <!-- home section-->
+    <section class="home-section section">
+        <!-- effect wrap -->
+        <div class="effect-wrap">
+            <div class="effect effect-1">
             </div>
-        </section>
-        <!-- portfolio section end -->
+            <div class="effect effect-2">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
 
-        <!-- portfolio popup -->
-        <div class="portfolio-popup">
-            <div class="pp-details">
-                <div class="pp-details-inner">
-                    <div class="pp-title">
-                        <h2>personal portfolio</h2>
-                        <p> Category - <span class="pp-project-category">Web application</span></p>
-                    </div>
-                    <div class="pp-project-details">
-                        <div class="row">
-                            <div class="description">
-                                <h3>Project Brief:</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                    do eiusmod</p>
-                            </div>
-                            <div class="info">
-                                <h3>Project info</h3>
-                                <ul>
-                                    <li>Date - <span> 2022 </span></li>
-                                    <li> Tolls - <span> HTML5, CSS, JavaScript </span></li>
-                                    <li>Website - <span> <a href="#">www.domain.com</a> </span></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="separator"></div>
-            <div class="pp-main">
-                <div class="pp-main-inner">
-                    <div class="pp-project-details-btn outer-shadow hover-in-shadow">Project Details <i class="fas fa-plus"></i></div>
-                    <div class="pp-close outer-shadow hover-in-shadow">&times;</div>
-                    <img src="/screenshots/Project2/Landing.PNG" alt="img" class="pp-img outer-shadow">
-                    <div class="pp-counter">1 of 6</div>
-                </div>
-                <!-- pp navigation -->
-                <div class="pp-prev"><i class="fas fa-play"></i></div>
-                <div class="pp-next"><i class="fas fa-play"></i></div>
+            <div class="effect effect-3"></div>
+            <div class="effect effect-4"></div>
+            <div class="effect effect-5">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
             </div>
         </div>
-        <!-- portfolio popup end -->
+        <!-- effect wrap end-->
+        <div class="container">
+            <div class="row full-screen align-items-center">
+                <div class="home-text">
+                    <p>Hello</p>
+                    <h2>I'm Long Nguyen</h2>
+                    <h1>Software Engineering</h1>
+                    <a href="#" class="btn-1 outer-shadow hover-in-shadow">More About Me</a>
+                </div>
 
-        <!--Main JavaScript -->
-        <script src="main.js"></script>
-    </body>
+                <div class="home-img">
+                    <div class="img-box inner-shadow">
+                        <img class="outer-shadow" src="/profile-pic.jpg" alt="profic-pic">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- home section end-->
+
+    <!-- About section -->
+    <section class="about-section section">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2 data-heading="main info">About me</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="about-img">
+                    <div class="img-box inner-shadow">
+                        <img src="profile-pic.jpg" class="outer-shadow" alt="profile-pic">
+                    </div>
+                    <!-- Social links -->
+                    <div class="social-links">
+                        <a href="#" class="outer-shadow hover-in-shadow"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="outer-shadow hover-in-shadow"><i class="fab fa-github"></i></a>
+                        <a href="#" class="outer-shadow hover-in-shadow"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+                <div class="about-info">
+                    <p><span>Hi! I'm Long Nguyen. I'm a Software Engnineering</span>This is all about my life</p>
+                    <a href="Resume-Long.pdf" class="btn-1 outer-shadow hover-in-shadow">My Resume</a>
+                    <a href="#" class="btn-1 outer-shadow hover-in-shadow">Hire me</a>
+                </div>
+            </div>
+            <!-- About tabs -->
+            <div class="row">
+                <div class="about-tabs">
+                    <span class="tab-item outer-shadow active" data-target=".skills"> skills</span>
+                    <span class="tab-item" data-target=".experience"> experience</span>
+                    <span class="tab-item" data-target=".education"> education</span>
+                </div>
+            </div>
+            <!-- About tabs end-->
+            <!-- Skill tabs -->
+            <div class="row">
+                <div class="skills tab-content active">
+                    <div class="row">
+                        <!-- HTML Skill -->
+                        <div class="skill-item">
+                            <p>HTML5</p>
+                            <div class="progress inner-shadow">
+                                <div class="progress-bar" style="width: calc(70% - 14px)">
+                                    <span>70%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- HTML Skill end -->
+                        <!-- CSS Skill -->
+                        <div class="skill-item">
+                            <p>CSS</p>
+                            <div class="progress inner-shadow">
+                                <div class="progress-bar" style="width: calc(60% - 14px)">
+                                    <span>60%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- CSS Skill end-->
+                        <!-- JavaScript Skill -->
+                        <div class="skill-item">
+                            <p>JavaScript</p>
+                            <div class="progress inner-shadow">
+                                <div class="progress-bar" style="width: calc(70% - 14px)">
+                                    <span>70%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- JavaScript skill end-->
+                        <!-- Java Skill -->
+                        <div class="skill-item">
+                            <p>Java</p>
+                            <div class="progress inner-shadow">
+                                <div class="progress-bar" style="width: calc(90% - 14px)">
+                                    <span>90%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Java skill end-->
+                        <!-- Python Skill -->
+                        <div class="skill-item">
+                            <p>Python</p>
+                            <div class="progress inner-shadow">
+                                <div class="progress-bar" style="width: calc(30% - 14px)">
+                                    <span>30%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Python skill end-->
+                    </div>
+                </div>
+            </div>
+            <!-- Skill tabs end-->
+            <!-- Experience start -->
+            <div class="row">
+                <div class="experience tab-content">
+                    <div class="row">
+                        <div class="timeline">
+                            <div class="row">
+                                <!-- timeline item start -->
+                                <div class="timeline-item">
+                                    <div class="timeline-item-inner outer-shadow">
+                                        <i class="fas fa-briefcase icon"></i>
+                                        <span>June 2021 - Sep 2021</span>
+                                        <h3> Software Developer </h3>
+                                        <h4>Viet Challenge (Volunteer)</h4>
+                                        <p>Maintain Website Vietchallenge.org by using Wix API. Get to know syntax of
+                                            JavaScript, design and implement features as a team of 3. </p>
+                                    </div>
+                                </div>
+                                <!-- timeline item end -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Experience end -->
+            <!-- Education start -->
+            <div class="row">
+                <div class="education tab-content">
+                    <div class="row">
+                        <div class="timeline">
+                            <div class="row">
+                                <!-- timeline item start -->
+                                <div class="timeline-item">
+                                    <div class="timeline-item-inner outer-shadow">
+                                        <i class="fas fa-graduation-cap icon"></i>
+                                        <span>Sep, 2019 - May 2022</span>
+                                        <h3> Bachelor Degree in Science </h3>
+                                        <h4>Salem State University</h4>
+                                        <p>Major: Computer Science, Concentration in Software Engineering</p>
+                                    </div>
+                                </div>
+                                <!-- timeline item end -->
+                                <!-- timeline item start -->
+                                <div class="timeline-item">
+                                    <div class="timeline-item-inner outer-shadow">
+                                        <i class="fas fa-graduation-cap icon"></i>
+                                        <span>Sep, 2015 - Sep, 2019</span>
+                                        <h3> High School Degree</h3>
+                                        <h4>Green River Community College</h4>
+                                        <p>I joined and finished "High School Completion" program at GRCC; I have taken
+                                            many Business classes here at GRCC.</p>
+                                    </div>
+                                </div>
+                                <!-- timeline item end -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Education end -->
+        </div>
+    </section>
+    <!-- About section end -->
+
+    <!-- Service section -->
+    <section class="service-section">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2 data-heading="services"> What I do</h2>
+                </div>
+            </div>
+            <div class="row">
+                <!-- service item start -->
+                <div class="service-item">
+                    <div class="service-item-inner outer-shadow">
+                        <div class="icon inner-shadow">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Responsive Design</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                            do eiusmod.
+                        </p>
+                    </div>
+                </div>
+                <!-- service item end -->
+                <!-- service item start -->
+                <div class="service-item">
+                    <div class="service-item-inner outer-shadow">
+                        <div class="icon inner-shadow">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Clean Code</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                            do eiusmod.
+                        </p>
+                    </div>
+                </div>
+                <!-- service item end -->
+                <!-- service item start -->
+                <div class="service-item">
+                    <div class="service-item-inner outer-shadow">
+                        <div class="icon inner-shadow">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>Web Design</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                            do eiusmod.
+                        </p>
+                    </div>
+                </div>
+                <!-- service item end -->
+                <!-- service item start -->
+                <div class="service-item">
+                    <div class="service-item-inner outer-shadow">
+                        <div class="icon inner-shadow">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h3>Graphic Design</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                            do eiusmod.
+                        </p>
+                    </div>
+                </div>
+                <!-- service item end -->
+                <!-- service item start -->
+                <div class="service-item">
+                    <div class="service-item-inner outer-shadow">
+                        <div class="icon inner-shadow">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h3>SEO marketing</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                            do eiusmod.
+                        </p>
+                    </div>
+                </div>
+                <!-- service item end -->
+                <!-- service item start -->
+                <div class="service-item">
+                    <div class="service-item-inner outer-shadow">
+                        <div class="icon inner-shadow">
+                            <i class="fas fa-bullhorn"></i>
+                        </div>
+                        <h3>great support</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                            do eiusmod.
+                        </p>
+                    </div>
+                </div>
+                <!-- service item end -->
+            </div>
+        </div>
+    </section>
+    <!-- Service section end-->
+
+    <!-- portfolio section -->
+    <section class="portfolio-section section">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2 data-heading="portfolio">Lastest Works</h2>
+                </div>
+            </div>
+            <!-- portfolio filter -->
+            <div class="row">
+                <div class="portfolio-filter">
+                    <span class="filter-item outer-shadow active" data-target="all">all</span>
+                    <span class="filter-item" data-target="web-application">web application</span>
+                    <span class="filter-item" data-target="ui-design">UI Design</span>
+                    <span class="filter-item" data-target="java">Java</span>
+                    <!-- <span class="filter-item" data-target="e-commerce">e commerce</span> -->
+                </div>
+            </div>
+            <!-- portfolio filter  end -->
+            <!-- portfolio items -->
+            <div class="row portfolio-items">
+                <!-- portfolio item  -->
+                <div class="portfolio-item" data-category="web-application">
+                    <div class="portfolio-item-inner outer-shadow">
+                        <div class="portfolio-item-img">
+                            <img src="/screenshots/Project1/sc1.png" alt="portfolio" data-screenshots="/screenshots/Project1/sc1.png">
+                            <!-- view porject btn -->
+                            <span class="view-project"> view project </span>
+                        </div>
+                        <p class="portfolio-item-title">personal portfolio</p>
+                        <!-- portfolio item details -->
+                        <div class="portfolio-item-details">
+                            <div class="row">
+                                <div class="description">
+                                    <h3>Project Brief:</h3>
+                                    <p>I'm Long Nguyen, a Software Engineering. This is my portfolio, it contains what I
+                                        do, what have I done, and my education,</p>
+                                </div>
+                                <div class="info">
+                                    <h3>Project info</h3>
+                                    <ul>
+                                        <li>Date - <span> 2022 </span></li>
+                                        <li> Tools - <span> HTML5, CSS, JavaScript </span></li>
+                                        <li>Website - <span> <a href="#">www.domain.com</a> </span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- portfolio item details end -->
+                    </div>
+                </div>
+                <!-- portfolio item end -->
+                <!-- portfolio item  -->
+                <div class="portfolio-item" data-category="ui-design">
+                    <div class="portfolio-item-inner outer-shadow">
+                        <div class="portfolio-item-img">
+                            <img src="/screenshots/project-2/b1.PNG" alt="Bob's nursery" data-screenshots="/screenshots/project-2/b1.PNG,
+                                /screenshots/project-2/b2.PNG,
+                                /screenshots/project-2/b3.PNG,
+                                /screenshots/project-2/b4.PNG,
+                                /screenshots/project-2/b5.PNG,
+                                /screenshots/project-2/b6.PNG,
+                                /screenshots/project-2/b7.PNG">
+                            <!-- view porject btn -->
+                            <span class="view-project"> view project </span>
+                        </div>
+                        <p class="portfolio-item-title">Bob's Nursery</p>
+                        <!-- portfolio item details -->
+                        <div class="portfolio-item-details">
+                            <div class="row">
+                                <div class="description">
+                                    <h3>Project Brief:</h3>
+                                    <p>This is user interface I designed for Bob's nursery based on his requirements,
+                                        Bob's requirements:
+                                        Landing page, Log-in Page, Create Account, Sale Summary, Vendor Page, Adding new
+                                        Vendor page, and Inventory.
+                                    </p>
+                                </div>
+                                <div class="info">
+                                    <h3>Project info</h3>
+                                    <ul>
+                                        <li>Date - <span> 2021 </span></li>
+                                        <li> Tools - <span> JavaFx </span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- portfolio item details end -->
+                    </div>
+                </div>
+                <!-- portfolio item end -->
+                <!-- portfolio item  -->
+                <div class="portfolio-item" data-category="java">
+                    <div class="portfolio-item-inner outer-shadow">
+                        <div class="portfolio-item-img">
+                            <img src="/screenshots/Project3/snakegame.png" alt="portfolio" data-screenshots="#">
+                            <!-- view porject btn -->
+                            <span class="view-project"> view project </span>
+                        </div>
+                        <p class="portfolio-item-title">Snake Game</p>
+                        <!-- portfolio item details -->
+                        <div class="portfolio-item-details">
+                            <div class="row">
+                                <div class="description">
+                                    <h3>Project Brief:</h3>
+                                    <p>This is a childhood game: SNAKE, you eat, you grow, the more you grow, the more
+                                        point you get.
+                                        This application will run on Netbeans, it will keep your highest score and store
+                                        on the board.
+                                        We implemented Stack method to increase the size of the snake, Singly Linked
+                                        List to keep track of
+                                        the highest score.
+                                    </p>
+                                </div>
+                                <div class="info">
+                                    <h3>Project info</h3>
+                                    <ul>
+                                        <li>Date - <span> 2022 </span></li>
+                                        <li> Tools - <span> Java, Data Structure, Netbeans </span></li>
+                                        <li>Group Member - <span> Truman Ngo, Ronny Suon, Andrew, Long Nguyen </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- portfolio item details end -->
+                    </div>
+                </div>
+                <!-- portfolio item end -->
+            </div>
+            <!-- portfolio items end -->
+        </div>
+    </section>
+    <!-- portfolio section end -->
+
+    <!-- portfolio popup -->
+
+    <div class="pp portfolio-popup">
+        <div class="pp-details">
+            <div class="pp-details-inner">
+                <div class="pp-title">
+                    <h2>personal portfolio</h2>
+                    <p>Category - <span class="pp-project-category">Web Application</span></p>
+                </div>
+                <div class="pp-project-details">
+                    <div class="row">
+                        <div class="description">
+                            <h3>Project Brief:</h3>
+                            <p>I'm Long Nguyen, a Software Engineering. This is my portfolio, it contains what I do,
+                                what have I done, and my education,</p>
+                        </div>
+                        <div class="info">
+                            <h3>Project info</h3>
+                            <ul>
+                                <li>Date - <span> 2022 </span></li>
+                                <li> Tools - <span> HTML5, CSS, JavaScript </span></li>
+                                <li>Website - <span> <a href="#">www.domain.com</a> </span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="separator"></div>
+        <div class="pp-main">
+            <div class="pp-main-inner">
+                <div class="pp-project-details-btn outer-shadow hover-in-shadow"> Project Details <i
+                        class="fas fa-plus"></i></div>
+                <div class="pp-close outer-shadow hover-in-shadow">&times;</div>
+                <img src="screenshots/Project1/sc1.png" alt="img" class="pp-img outer-shadow">
+                <div class="pp-counter">1 of 6</div>
+            </div>
+            <div class ="pp-loader"> 
+                <div></div>
+            </div>
+            <!-- pp navigation -->
+            <div class="pp-prev"><i class="fas fa-play"></i></div>
+            <div class="pp-next"><i class="fas fa-play"></i></div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!--Main JavaScript -->
+    <script src="main.js"></script>
+</body>
+
 </html>
