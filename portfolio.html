@@ -37,22 +37,23 @@
         <div class="close-nav-menu outer-shadow hover-in-shadow">&times;</div>
         <div class="nav-menu-inner">
             <ul>
-                <li><a href="#" class="inner-shadow active">home</a></li>
-                <li><a href="#" class="outer-shadow hover-in-shadow">about</a></li>
-                <li><a href="#" class="outer-shadow hover-in-shadow">services</a></li>
-                <li><a href="#" class="outer-shadow hover-in-shadow">portfolio</a></li>
-                <li><a href="#" class="outer-shadow hover-in-shadow">testimonial</a></li>
-                <li><a href="#" class="outer-shadow hover-in-shadow">contact</a></li>
+                <li><a href="#home" class="link-item inner-shadow active">home</a></li>
+                <li><a href="#about" class="link-item outer-shadow hover-in-shadow">about</a></li>
+                <li><a href="#service" class="link-item outer-shadow hover-in-shadow">services</a></li>
+                <li><a href="#portfolio" class="link-item outer-shadow hover-in-shadow">portfolio</a></li>
+                <li><a href="#contact" class="link-item outer-shadow hover-in-shadow">contact</a></li>
             </ul>
         </div>
         <!-- Copyright Text -->
         <p class="copyright-text">&copy; 2022 Long Nguyen</p>
     </nav>
+    <div class="fade-out-effect">
+    </div>
     <!-- Nav Menu  end-->
 
 
     <!-- home section-->
-    <section class="home-section section">
+    <section class="home-section section active" id="home">
         <!-- effect wrap -->
         <div class="effect-wrap">
             <div class="effect effect-1">
@@ -110,7 +111,7 @@
                     <p>Hello</p>
                     <h2>I'm Long Nguyen</h2>
                     <h1>Software Engineering</h1>
-                    <a href="#" class="btn-1 outer-shadow hover-in-shadow">More About Me</a>
+                    <a href="#about" class="link-item btn-1 outer-shadow hover-in-shadow">More About Me</a>
                 </div>
 
                 <div class="home-img">
@@ -124,7 +125,7 @@
     <!-- home section end-->
 
     <!-- About section -->
-    <section class="about-section section">
+    <section class="about-section section" id="about">
         <div class="container">
             <div class="row">
                 <div class="section-title">
@@ -146,7 +147,7 @@
                 <div class="about-info">
                     <p><span>Hi! I'm Long Nguyen. I'm a Software Engnineering</span>This is all about my life</p>
                     <a href="Resume-Long.pdf" class="btn-1 outer-shadow hover-in-shadow">My Resume</a>
-                    <a href="#" class="btn-1 outer-shadow hover-in-shadow">Hire me</a>
+                    <a href="#" class="link-item btn-1 outer-shadow hover-in-shadow">Hire me</a>
                 </div>
             </div>
             <!-- About tabs -->
@@ -186,8 +187,8 @@
                         <div class="skill-item">
                             <p>JavaScript</p>
                             <div class="progress inner-shadow">
-                                <div class="progress-bar" style="width: calc(70% - 14px)">
-                                    <span>70%</span>
+                                <div class="progress-bar" style="width: calc(80% - 14px)">
+                                    <span>80%</span>
                                 </div>
                             </div>
                         </div>
@@ -196,8 +197,8 @@
                         <div class="skill-item">
                             <p>Java</p>
                             <div class="progress inner-shadow">
-                                <div class="progress-bar" style="width: calc(90% - 14px)">
-                                    <span>90%</span>
+                                <div class="progress-bar" style="width: calc(80% - 14px)">
+                                    <span>80%</span>
                                 </div>
                             </div>
                         </div>
@@ -250,10 +251,11 @@
                                 <div class="timeline-item">
                                     <div class="timeline-item-inner outer-shadow">
                                         <i class="fas fa-graduation-cap icon"></i>
-                                        <span>Sep, 2019 - May 2022</span>
+                                        <span>Sep, 2019 - May, 2022</span>
                                         <h3> Bachelor Degree in Science </h3>
                                         <h4>Salem State University</h4>
                                         <p>Major: Computer Science, Concentration in Software Engineering</p>
+                                        <p>Achievements: Dean's List Fall 2021</p>
                                     </div>
                                 </div>
                                 <!-- timeline item end -->
@@ -280,7 +282,7 @@
     <!-- About section end -->
 
     <!-- Service section -->
-    <section class="service-section">
+    <section class="service-section section" id="service">
         <div class="container">
             <div class="row">
                 <div class="section-title">
@@ -292,11 +294,11 @@
                 <div class="service-item">
                     <div class="service-item-inner outer-shadow">
                         <div class="icon inner-shadow">
-                            <i class="fas fa-mobile-alt"></i>
+                            <i class="fas fa-bug"></i>
                         </div>
-                        <h3>Responsive Design</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                            do eiusmod.
+                        <h3>Software Developer</h3>
+                        <p> Understand the concept of SWE: Analyzing user requirements by designing, building,
+                            and testing the software application.
                         </p>
                     </div>
                 </div>
@@ -305,11 +307,10 @@
                 <div class="service-item">
                     <div class="service-item-inner outer-shadow">
                         <div class="icon inner-shadow">
-                            <i class="fas fa-code"></i>
+                            <i class="fas fa-lightbulb"></i>
                         </div>
-                        <h3>Clean Code</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                            do eiusmod.
+                        <h3>Intuitive</h3>
+                        <p> Strong preference for easy to use UI/UX
                         </p>
                     </div>
                 </div>
@@ -320,9 +321,10 @@
                         <div class="icon inner-shadow">
                             <i class="fas fa-laptop-code"></i>
                         </div>
-                        <h3>Web Design</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                            do eiusmod.
+                        <h3>Full-Stack Developer</h3>
+                        <p>I learned Java at school, but I was in love with the moment I learned JavaScript.
+                            back-end is not my strength, but to be a full-stack developer, I must master back-end and
+                            <front-end class=""></front-end>
                         </p>
                     </div>
                 </div>
@@ -331,11 +333,13 @@
                 <div class="service-item">
                     <div class="service-item-inner outer-shadow">
                         <div class="icon inner-shadow">
-                            <i class="fas fa-palette"></i>
+                            <i class="fas fa-handshake"></i>
                         </div>
-                        <h3>Graphic Design</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                            do eiusmod.
+                        <h3>Team Work</h3>
+                        <p>"Team work make the dream work." Understand the concept of how important team work is in the
+                            Computer Science field.
+                            I encourage people to get tasks done before due date; I help and keep track how is my
+                            teammate's progress.
                         </p>
                     </div>
                 </div>
@@ -344,11 +348,12 @@
                 <div class="service-item">
                     <div class="service-item-inner outer-shadow">
                         <div class="icon inner-shadow">
-                            <i class="fas fa-search"></i>
+                            <i class="fas fa-trophy"></i>
                         </div>
-                        <h3>SEO marketing</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                            do eiusmod.
+                        <h3>Self Learner</h3>
+                        <p>Fast adapting to new thing, I'm a self-learner JavaScript, HTML5, CSS, React
+                            to build my Capstone project: a POS for BB restaurant. And willing to learn new language to
+                            adapt to any environment.
                         </p>
                     </div>
                 </div>
@@ -372,7 +377,7 @@
     <!-- Service section end-->
 
     <!-- portfolio section -->
-    <section class="portfolio-section section">
+    <section class="portfolio-section section " id="portfolio">
         <div class="container">
             <div class="row">
                 <div class="section-title">
@@ -393,7 +398,7 @@
             <!-- portfolio items -->
             <div class="row portfolio-items">
                 <!-- portfolio item  -->
-                <div class="portfolio-item" data-category="web-application">
+                <div class="portfolio-item" data-category="web-application" data-category ="all">
                     <div class="portfolio-item-inner outer-shadow">
                         <div class="portfolio-item-img">
                             <img src="/screenshots/Project1/sc1.png" alt="portfolio"
@@ -509,7 +514,7 @@
 
     <!-- 1/14/2022 add contact section  -->
     <!-- contact section -->
-    <section class="contact-section section">
+    <section class="contact-section section" id="contact">
         <div class="container">
             <div class="row">
                 <div class="section-title">
@@ -625,7 +630,18 @@
             <div class="pp-next"><i class="fas fa-play"></i></div>
         </div>
     </div>
-
+    <!-- portfolio popup end -->
+    <!-- style switcher  -->
+    <div class="style-switcher">
+        <div class="style-toggler">
+            <i class="fas fa-cog fa-spin"></i>
+        </div>
+        <div class="day-night">
+            <i class="fas fa-moon"></i>
+        </div>
+        <h4>Theme Colors</h4>
+    </div>
+    <!-- style switcher end -->
 
 
 
