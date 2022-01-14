@@ -106,7 +106,7 @@ function bodyScrollingToggle() {
 (() => {
     const filterContainer = document.querySelector(".portfolio-filter"),
         portfolioItemsContainer = document.querySelector(".portfolio-items"),
-        portfolioItems = document.querySelectorAll(".portfolio-item");
+        portfolioItems = document.querySelectorAll(".portfolio-item"),
         popup = document.querySelector(".portfolio-popup"),
         prevBtn = popup.querySelector(".pp-prev"),
         nextBtn = popup.querySelector(".pp-next"),
@@ -125,7 +125,7 @@ function bodyScrollingToggle() {
             event.target.classList.add("active", "outer-shadow");
             const target = event.target.getAttribute("data-target");
             portfolioItems.forEach((item) => {
-                if (target === item.getAttribute("data-category")) {
+                if (target === item.getAttribute("data-category") || target === 'all') {
                     item.classList.remove("hide");
                     item.classList.add("show");
                 }
@@ -252,3 +252,11 @@ function bodyScrollingToggle() {
     })
 
 })();
+
+window.addEventListener("load", () => {
+    //preloader
+    document.querySelector(".preloader").classList.add("fade-out");
+    setTimeout(() => {
+        document.querySelector(".preloader").style.display="none";
+    }, 600)
+})
